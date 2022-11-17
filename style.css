@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.sidebar{
+    background-color: black;
+    
+    color:white;
+    font-size: 55px;
+    font-family: 'Varela',sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    
+}
+.sidebar a{
+   text-decoration: none;
+   color:white;
+}
+
+.sidebar nav{
+padding: 42px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+   
+    
+}
+.main{
+    background-color:#051622;
+    width:100vw;
+    padding: 23px;
+    display: flex;
+    height:100vh;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    background-color: chocolate;
+    height:74vh;
+    width:50vw;
+    margin: auto;
+    margin-top: 123px;
+    display: flex;
+    justify-content:space-around ;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    flex-direction: column;
+    font-family:'Tinos', serif ;
+}
+.hello{
+    font-size: 60px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Varela',sans-serif;
+    
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    margin: 23px;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttons {
+    margin-top: 1px;
+height: 61px;
+width: 110px;
+text-align: center;
+    
+}
+
+.devpic img{
+    height: 332px;
+    width:250px;
+
+}
+.devpic{
+    height:74px;
+}
+.contactform{
+font-family: 'Times New Roman', Times, serif;
+padding-top: 144px;
+padding: 10px 56px;
+
+
+}
+.contactform h1{
+    text-align: center;
+}
+
+
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+.contactform form div input{
+    width:50vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 8px;
+  
+}
+#emailHelp{
+    font-size: 10px;
+    color: darkblue;
+    margin:0 5px
+}
+.achieveContainer{
+    padding: 70px;
+    flex-wrap: wrap;
+    margin: auto;
+     display: flex-box;
+    justify-content: space-around ;
+   
+
+}
+.topic{
+    text-align: center;
+    padding-bottom: 52px;
+    padding-left: 109px;
+    text-decoration: underline;
+    }
+ .achieveContainer li{
+    margin: 10px;
+    flex-wrap: wrap;
+    margin-left: 119px;
+ }
+ .achievepic{
+    height: 74px;
+    width:20px;
+ }
+ .achieveContainer img{
+height: 300px;
+width: 510px;
+padding: 10px;
+flex-wrap: wrap;
+margin: 20px;
+ }
+ .main123{
+    background-color: #051622;
+    width:100vw;
+    color:white;
+    display: flex;
+    padding: 23px;
+    height:100vh; 
+ }
+ .maincontact{
+    background-color:#051622;
+    width:100vw;
+    padding: 23px;
+    height:100vh;
+    display: flex; 
+ }
+ .contactcontainer{
+    background-color: #F1B814;
+    height:76vh;
+    width:53vw;
+    margin: auto;
+    margin-top: 140px;
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    
+}
+.aboutmecontainer{
+    background-color: #1BA098;
+    height:76vh;
+    width:53vw;
+    margin: auto;
+    margin-top: 90px;
+    display: flex-box;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+
+    
+}
+.projectcontainer{
+    background-color: #DEB992;
+    height: 74vh;
+    width: 53vw;
+    margin: auto;
+      margin-top: auto;
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    }
+    
+    
+    .sidebargo{
+        transform:translate(-443px, 0px);
+    position:absolute;
+    }
+    .hamburger{
+       position: absolute; 
+       cursor: pointer;
+       top: 10px;
+       left: 5px;
+       margin-top: 6px;
+    }
+    .cross{
+        margin-left: 196px;
+margin-top: 10px;
+    }
+    
+    @media (max-width:1046px) {
+ *{
+
+ }
+/*.sidebar{
+    transform:translate(-443px, 0px);
+    position:absolute;
+ 
+}*/
+    }
